@@ -23,9 +23,20 @@ namespace Homework_Arrays_6
                 Console.Write(a[i] + " ");
             }
             Console.WriteLine();
+            int t,t1;
             Console.Write("Реверс массива:");
+            for (int i = 0; i < a.Length; i++)
+            {
+               
+                    t = a[i];
+                    //t1 = a[j];
+                    a[i] = a[n-i-1];
+                    //a[i] = t1;
+                    a[ n-i - 1] = t;
 
-            Console.Write($);
-        }
+                
+                Console.Write(a[i] + " ");
+            }
+    }
     }
 }
