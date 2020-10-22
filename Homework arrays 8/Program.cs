@@ -38,18 +38,11 @@ namespace Homework_arrays_8
                     a[i] = a[h + i + 1];
                     a[h + i + 1] = t;
                 }
-                //if (a.Length % 2 != 0)
-                //{
-                //    a[i] = a[h - 1];
-                //    a[h - 1] = t;
-                //}
-                //else
-                //{
-                //    a[i] = a[h + i - 1];
-                //    a[h + i - 1] = t;
-                //}
-
-                Console.Write(a[i]+" ");
+                
+            }
+            for (int i = 0; i < n; i++)
+            {
+                Console.Write($"{a[i]}, ");
             }
         }
     }
