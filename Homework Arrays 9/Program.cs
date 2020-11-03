@@ -18,8 +18,6 @@ namespace Homework_Arrays_9
             int[] SortA = Arrays.ArraysMethods.SortAraySelection(a);
             Console.WriteLine(String.Join(" ", SortA));
         }
-
-
     }
-    }
+}
 

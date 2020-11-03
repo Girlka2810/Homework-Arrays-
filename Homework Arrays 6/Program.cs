@@ -16,10 +16,9 @@ namespace Homework_Arrays_6
             Console.Write("Исходный массив:");
             Console.WriteLine(string.Join(" ", a));
             Console.WriteLine();
-                       Console.Write("Реверс массива:");
+            Console.Write("Реверс массива:");
             int[] revers = Arrays.ArraysMethods.ReversArray(a);
             Console.WriteLine(string.Join(" ", revers));
-            ;
-        }
+        }    
     }
 }
