@@ -3,25 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework Arrays 1", "Homework Arrays 1\Homework Arrays 1.csproj", "{7CF93CED-B5FA-4D3D-AA65-E0FE207C6F01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework Arrays 1", "Homework Arrays 1\Homework Arrays 1.csproj", "{7CF93CED-B5FA-4D3D-AA65-E0FE207C6F01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework Arrays 2", "Homework Arrays 2\Homework Arrays 2.csproj", "{59501398-7C2F-4ED3-9611-3F848F926EE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework Arrays 2", "Homework Arrays 2\Homework Arrays 2.csproj", "{59501398-7C2F-4ED3-9611-3F848F926EE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework Arrays 3", "Homework Arrays 3\Homework Arrays 3.csproj", "{14239C8F-835E-43EF-8618-F81E01DD1277}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework Arrays 3", "Homework Arrays 3\Homework Arrays 3.csproj", "{14239C8F-835E-43EF-8618-F81E01DD1277}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework Arrays 4", "Homework Arrays 4\Homework Arrays 4.csproj", "{2AE7E463-7D93-4457-AD76-F407132415F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework Arrays 4", "Homework Arrays 4\Homework Arrays 4.csproj", "{2AE7E463-7D93-4457-AD76-F407132415F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework arrays 5", "Homework arrays 5\Homework arrays 5.csproj", "{D18C4C8A-3765-42EE-9B64-9E6AE4FA8DC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework arrays 5", "Homework arrays 5\Homework arrays 5.csproj", "{D18C4C8A-3765-42EE-9B64-9E6AE4FA8DC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework Arrays 6", "Homework Arrays 6\Homework Arrays 6.csproj", "{59D5A4C1-9C82-4659-A635-C507C6A5B079}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework Arrays 6", "Homework Arrays 6\Homework Arrays 6.csproj", "{59D5A4C1-9C82-4659-A635-C507C6A5B079}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework Arrays 7", "Homework Arrays 7\Homework Arrays 7.csproj", "{10F59C3D-132E-4A60-8AE7-76B27D5C7621}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework Arrays 7", "Homework Arrays 7\Homework Arrays 7.csproj", "{10F59C3D-132E-4A60-8AE7-76B27D5C7621}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework arrays 8", "Homework arrays 8\Homework arrays 8.csproj", "{E4B0C5F2-3EE8-4580-9BF2-BDAF9E7F8E91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework arrays 8", "Homework arrays 8\Homework arrays 8.csproj", "{E4B0C5F2-3EE8-4580-9BF2-BDAF9E7F8E91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework Arrays 9", "Homework Arrays 9\Homework Arrays 9.csproj", "{61FC1E88-61E4-4564-BB66-EA61E1494AD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework Arrays 9", "Homework Arrays 9\Homework Arrays 9.csproj", "{61FC1E88-61E4-4564-BB66-EA61E1494AD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework Array 10", "Homework Array 10\Homework Array 10.csproj", "{A28ED43A-82FA-4180-9739-E825FD2CF395}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework Array 10", "Homework Array 10\Homework Array 10.csproj", "{A28ED43A-82FA-4180-9739-E825FD2CF395}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{7BCF1F5B-71B8-4C68-B257-A803245B85C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysTests", "ArraysTests\ArraysTests.csproj", "{6AC5EA3D-A2A5-45CC-A870-EAA83FECB4A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{A28ED43A-82FA-4180-9739-E825FD2CF395}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A28ED43A-82FA-4180-9739-E825FD2CF395}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A28ED43A-82FA-4180-9739-E825FD2CF395}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BCF1F5B-71B8-4C68-B257-A803245B85C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BCF1F5B-71B8-4C68-B257-A803245B85C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BCF1F5B-71B8-4C68-B257-A803245B85C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BCF1F5B-71B8-4C68-B257-A803245B85C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AC5EA3D-A2A5-45CC-A870-EAA83FECB4A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AC5EA3D-A2A5-45CC-A870-EAA83FECB4A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AC5EA3D-A2A5-45CC-A870-EAA83FECB4A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AC5EA3D-A2A5-45CC-A870-EAA83FECB4A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

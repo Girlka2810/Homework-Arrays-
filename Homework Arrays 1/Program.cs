@@ -1,5 +1,5 @@
 ﻿using System;
-
+using Arrays;
 namespace Homework_Arrays_1
 {
     class Program
@@ -10,24 +10,10 @@ namespace Homework_Arrays_1
             Console.WriteLine("Укажите количество переменных:");
             Console.Write("N=");
             int n = Convert.ToInt32(Console.ReadLine());
-            int[] a = new int[n];
-            Random r = new Random();
-            for (int i=0; i<a.Length;i++)
-            {
-                a[i] = r.Next(-100,100) ;
-            }
-            Console.WriteLine();
+            int[] a = Arrays.ArraysMethods.InputRandomArray(n);
             Console.Write("Исходный массив: ");
-            for (int i = 0; i < a.Length; i++)
-            {
-                Console.Write(a[i] + " ");
-            }
-            int min=a[0];
-            for (int i = 0; i < a.Length; i++)
-            if (min>=a[i])
-            {
-                min = a[i];
-            }
+            Console.WriteLine(string.Join(" ", a));
+            int min = Arrays.ArraysMethods.FindMinElemOfArr(a);            
             Console.WriteLine();
             Console.WriteLine($"Наименьший элемент массива: {min}");
             
