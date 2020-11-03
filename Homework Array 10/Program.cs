@@ -29,10 +29,10 @@ namespace Homework_Array_10
             {
                 temp = a[i];
                 int j = i;
-                while (j > 0 && temp > a[j - 1])
+                while (j > 0 && temp > a[j + 1])
                 {
-                    a[j] = a[j - 1];
-                    j--;
+                    a[j] = a[j + 1];
+                    j++;
                     a[j] = temp;
                 }
                 Console.Write(a[i] + " ");
