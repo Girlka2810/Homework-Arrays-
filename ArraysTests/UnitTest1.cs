@@ -105,6 +105,7 @@ namespace ArraysTests
         public void SortArrayBubbleTest(int[] a, int[] expected)
         {
             int[] actual = Arrays.ArraysMethods.SortArrayBubble(a);
+           
             Assert.AreEqual(expected, actual);
         }
     }
