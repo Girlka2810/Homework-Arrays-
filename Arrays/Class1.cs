@@ -6,6 +6,7 @@ namespace Arrays
     {
         public static int[] InputRandomArray(int n)
         {
+
             int[] array = new int[n];
             Random r = new Random();
             for (int i = 0; i < array.Length; i++)
